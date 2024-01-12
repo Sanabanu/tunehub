@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensure full viewport height */
+  margin: 0;
+  background-color: navajowhite; /* Remove default margin */
+}
+a {
+  text-decoration: none; /* Remove default underline */
+  padding: 10px 20px; /* Add padding for better clickability */
+  margin: 10px; /* Create spacing between links */
+  border-radius: 5px; /* Add rounded corners */
+  font-family: Arial, sans-serif; /* Choose a readable font */
+  font-size: 16px; /* Adjust the font size */
+  color: #fff; /* Text color */
+  background-color: #3498db; /* Background color */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Change background color on hover */
+a:hover {
+  background-color: #2980b9;
+}
+
+/* Adjust style for specific links */
+a[href="login"] {
+  background-color:#e74c3c ; /* Different color for login link */
+}
+
+a[href="registration"] {
+  background-color: #e74c3c; /* Different color for registration link */
+}
